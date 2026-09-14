@@ -1,10 +1,10 @@
 {
   "name": "Cityapp (Angular 20)",
-  "install": "npm ci && npx ng analytics disable --global",
+  "install": "npm ci",
   "terminals": [
     {
       "name": "ng serve",
-      "command": "NG_CLI_ANALYTICS=false npx ng serve --host 0.0.0.0 --port 4200"
+      "command": "npx ng serve --host 0.0.0.0 --port 4200"
     }
   ],
   "ports": [
